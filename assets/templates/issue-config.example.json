@@ -1,0 +1,81 @@
+{
+  "issue_number": "2",
+  "output_dir": "../第2期",
+  "allow_page_metadata": false,
+  "colors": {
+    "charcoal": "#3e3e3b",
+    "gray": "#656460",
+    "orange": "#e7650e"
+  },
+  "pages": [
+    {
+      "order": 1,
+      "kind": "cover",
+      "label": "封面",
+      "source_image": "art/01-cover.png",
+      "cover_lines": [
+        {"text": "AI 是怎么", "xy": [170, 250], "size": 250, "color": "charcoal", "angle": -0.8},
+        {"text": "把活干完的？", "xy": [170, 590], "size": 250, "color": "orange", "angle": 0.7}
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "term",
+      "label": "Term1",
+      "source_image": "art/02-term1.png",
+      "term": "Term1",
+      "definition": "这里放已经审核通过的准确定义。",
+      "analogy": "这里放已经审核通过的下沉类比。",
+      "layout": {
+        "term_xy": [165, 470],
+        "term_size": 420,
+        "term_angle": 0.8,
+        "definition_xy": [220, 1260],
+        "definition_size": 104,
+        "definition_width": 1320,
+        "analogy_size": 96,
+        "analogy_width": 1180
+      }
+    },
+    {
+      "order": 3,
+      "kind": "term",
+      "label": "Term2",
+      "source_image": "art/03-term2.png",
+      "term": "Term2",
+      "definition": "这里放已经审核通过的准确定义。",
+      "analogy": "这里放已经审核通过的下沉类比。",
+      "layout": {"term_xy": [165, 445], "term_size": 400, "definition_xy": [220, 1170], "definition_size": 102, "definition_width": 1290, "analogy_size": 96, "analogy_width": 1180}
+    },
+    {
+      "order": 4,
+      "kind": "term",
+      "label": "Term3",
+      "source_image": "art/04-term3.png",
+      "term": "Term3",
+      "definition": "这里放已经审核通过的准确定义。",
+      "analogy": "这里放已经审核通过的下沉类比。",
+      "layout": {"term_xy": [1580, 430], "term_size": 400, "definition_xy": [1500, 1170], "definition_size": 94, "definition_width": 1280, "analogy_size": 90, "analogy_width": 1260}
+    },
+    {
+      "order": 5,
+      "kind": "term",
+      "label": "Term4",
+      "source_image": "art/05-term4.png",
+      "term": "Term4",
+      "definition": "这里放已经审核通过的准确定义。",
+      "analogy": "这里放已经审核通过的下沉类比。",
+      "layout": {"term_xy": [160, 445], "term_size": 360, "definition_xy": [220, 1120], "definition_size": 98, "definition_width": 1290, "analogy_size": 92, "analogy_width": 1190}
+    },
+    {
+      "order": 6,
+      "kind": "term",
+      "label": "Term5",
+      "source_image": "art/06-term5.png",
+      "term": "Term5",
+      "definition": "这里放已经审核通过的准确定义。",
+      "analogy": "这里放已经审核通过的下沉类比。",
+      "layout": {"term_xy": [160, 260], "term_size": 300, "definition_xy": [220, 780], "definition_size": 92, "definition_width": 2440, "analogy_xy": [220, 1150], "analogy_size": 88, "analogy_width": 2320}
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "T0_咪子分享Skill"
+  short_description: "让咪子用一个离谱动作讲懂一个 AI 黑话"
+  default_prompt: "使用 $t0-mizi-fenxiang-skill，从我的课程笔记中策划一期咪子分享 AI 黑话笔记。"

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local issue output and work-in-progress art
+咪子分享/
+output/
+art/
+issue-config.json
