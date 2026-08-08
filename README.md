@@ -4,6 +4,8 @@
 
 ![咪子分享：AI 是怎么把活儿干完的](assets/readme/mizi-ai-hero.png)
 
+![Tool、MCP 与 API 三张示例横向拼图](assets/readme/tool-mcp-api-triptych.jpg)
+
 ## 它会做什么
 
 - 从提供的课程笔记中提炼 **5 个主选词 + 3 个备选词或自行提供选词**，优先保证同一期词汇的关联性。
