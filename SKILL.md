@@ -69,7 +69,7 @@ For every page:
 1. Use the style anchors as **style and energy references**, not as edit targets.
 2. Generate a complete 3:4 portrait composition on white or warm-white space.
 3. Build the joke from one recognizable cat, one deliberately awkward core prop, funny scale, and at most one primitive hand-drawn mark. Choose only one rendering mode for the page: clean photographic collage, photo plus one functional naïve-line interaction, selective dry-brush or cut-paper treatment, one expressive close-up, or one absurd cat-object fusion. Never stack several art effects. Use at least two controlled expression cues such as glossy pleading eyes, uneven ears, a strong head tilt, a tiny crooked smile, closely hugging paws, or mild wide-angle emphasis. Keep the eyes anatomically seated and the overall impression lovable.
-4. Keep natural negative space for the approved Chinese copy. Do not make cards, columns, dashboards, or repeated page modules.
+4. Reserve one connected, usable copy region beside the action instead of pushing the subject into a corner and leaving an arbitrary empty half-page. Treat text and imagery as interlocking visual masses. Do not make cards, columns, dashboards, or repeated page modules.
 5. Generate the scene without text first. Do not ask ImageGen to invent definitions or render long Chinese paragraphs. Reserve exact labels such as `AI`, `SKILL`, and all Chinese copy for the typography pass unless the generated label is verified character-for-character.
 6. Default to no decorative arrow or doodle. If one is genuinely useful, generate it organically as part of the raster artwork with an unmistakably loose hand-drawn gesture. Never add clean vector-like arrows, browser-style annotation marks, or programmatic decorative lines during post-processing.
 7. Inspect the result for concept clarity, anatomy, accidental text, trademarks, and similarity to known meme animals. Regenerate when the image copies a reference too literally or the joke obscures the lesson.
@@ -78,14 +78,17 @@ For every page:
 
 Treat typography as a finishing layer on the generated image, never as a return to the old template system.
 
-1. Place only the approved wording in the image's natural negative space.
-2. Let placement respond to each composition; do not reuse fixed boxes or coordinates across pages.
-3. Typeset every definition and orange analogy with the system-installed `WawaSC-Regular.otf` (`娃娃体-简`) when it is available. Do not redistribute that proprietary system font. Fall back to the bundled [XiaolaiSC-Regular.ttf](assets/fonts/XiaolaiSC-Regular.ttf) only when Wawati SC is unavailable. Keep the large English term and large cover title on their existing title-font roles; do not apply either body font to them by default.
-4. Keep the definition, plain-language restatement, and one adaptive teaching angle readable on mobile.
-5. Add all approved text as a deterministic raster overlay by default. Generated text may be retained only after character-for-character verification.
-6. Treat every visible character as zero-tolerance: Chinese, English, abbreviations, prop labels, screen text, punctuation, and handwritten accents must match the approved copy exactly. One wrong, missing, extra, malformed, or unreadable character makes the page invalid.
-7. Do not trade text accuracy for visual quality. Remove or cover generated gibberish and typeset the correct wording before delivery.
-8. Do not place a recurring `咪子分享` / `第X期` corner mark on the cover or term pages. Keep issue metadata in filenames and source files unless the user explicitly asks to show it.
+1. Place only the approved wording in the image's usable copy region.
+2. Mark the complete cat silhouette as a hard protected region. Never cover the cat with text, especially its face, eyes, whiskers, paws, or expression-bearing pose.
+3. Let placement respond to each composition; do not reuse fixed boxes or coordinates across pages. Text may overlap a non-critical part of a paper strip, cardboard object, machine casing, or other secondary prop when the concept remains readable and contrast is strong.
+4. Start with the largest plausible title, definition, and analogy sizes, then reduce only enough to protect the cat and keep clean line breaks. Body copy should behave as a major visual mass, not as a timid caption.
+5. Place the term below the extreme top edge by default. Move it downward toward the definition when this removes a dead upper or lower pocket and improves the page rhythm.
+6. Typeset every definition and orange analogy with the system-installed `WawaSC-Regular.otf` (`娃娃体-简`) when it is available. Do not redistribute that proprietary system font. Fall back to the bundled [XiaolaiSC-Regular.ttf](assets/fonts/XiaolaiSC-Regular.ttf) only when Wawati SC is unavailable. Keep the large English term and large cover title on their existing title-font roles; do not apply either body font to them by default.
+7. Keep the definition, plain-language restatement, and one adaptive teaching angle readable on mobile.
+8. Add all approved text as a deterministic raster overlay by default. Generated text may be retained only after character-for-character verification.
+9. Treat every visible character as zero-tolerance: Chinese, English, abbreviations, prop labels, screen text, punctuation, and handwritten accents must match the approved copy exactly. One wrong, missing, extra, malformed, or unreadable character makes the page invalid.
+10. Do not trade text accuracy for visual quality. Remove or cover generated gibberish and typeset the correct wording before delivery.
+11. Do not place a recurring `咪子分享` / `第X期` corner mark on the cover or term pages. Keep issue metadata in filenames and source files unless the user explicitly asks to show it.
 
 ## Save the issue
 
@@ -118,7 +121,7 @@ Use [scripts/render_issue.py](scripts/render_issue.py) with a filled copy of [as
 1. Confirm exactly six PNG and six JPG files exist and are 3000 × 4000 pixels.
 2. Inspect a contact sheet and at least the cover plus two term pages at full readable size.
 3. Compare every visible character against the approved copy, including Chinese, English case, abbreviations, punctuation, prop labels, screen text, and handwritten accents. Reject the page for any mismatch or gibberish.
-4. Check issue number, term order, filenames, text contrast, visual variety, and concept-to-joke accuracy.
+4. Check issue number, term order, filenames, text contrast, visual variety, concept-to-joke accuracy, and whole-page balance at thumbnail size. Reject large inactive blank pockets that neither hold copy nor strengthen the cat's gaze, movement, or silhouette.
 5. Compare all pages with [references/visual-system.md](references/visual-system.md).
 6. Regenerate or retouch any page that feels polished-corporate, vintage-editorial, vector-like, repetitive, oily, filter-heavy, visually fragmented, or too similar to a supplied reference.
 

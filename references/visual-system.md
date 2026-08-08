@@ -15,7 +15,7 @@ The series is not a polished vintage illustration, a corporate infographic, a ve
 - Six images per issue: one cover plus five term pages.
 - Strict portrait ratio: 3000 × 4000 px (3:4).
 - Export lossless PNG and compressed high-quality JPG.
-- Keep large white or warm-white breathing space and a mobile-readable hierarchy.
+- Keep purposeful white or warm-white breathing space and a mobile-readable hierarchy. White area must support copy, movement, gaze, or silhouette; it is not automatically good design.
 - Compose every page independently. Shared identity comes from attitude and constraints, not identical coordinates.
 
 ## Brand copy
@@ -117,11 +117,30 @@ Reduce every page to one visual sentence:
 
 - Prefer a white or slightly warm-white seamless background.
 - Use one dominant compact cutout group, usually around the lower or middle field, with generous calm negative space.
+- Reserve one connected copy region close enough to the action that text and subject feel like one composition. Do not exile the subject to an edge merely to create a large empty side.
 - Let object scale feel deliberately wrong: oversized pointer, tiny lectern, impossible hat, miniature retro computer, or disproportionate vehicle.
 - Preserve a clear silhouette. Awkward collage logic is welcome; muddy edges and broken anatomy are not.
 - Default to no decorative arrow or doodle. When a mark materially helps the joke, use at most one rough arrow, circle, question mark, zigzag, underline, or one large functional line-drawing construction.
 - Generate that mark as an organic part of the raster artwork so it feels genuinely hand-drawn and slightly clumsy. Never add a clean vector-like arrow or programmatic annotation layer in post-processing.
 - Do not place explanations inside fixed cards. Typography should occupy negative space and react to the scene.
+
+## Balance and usable negative space
+
+Distinguish **breathing space** from **dead space**:
+
+- Breathing space separates title, explanation, cat, and prop while strengthening reading order or movement.
+- Dead space is a large inactive pocket that contains no copy, frames no meaningful silhouette, and does not support the cat's gaze or direction of travel.
+
+Build and repair the page in this order:
+
+1. Treat the complete cat silhouette as protected. Never place text over the cat; give extra protection to the face, eyes, whiskers, paws, and expression-bearing pose.
+2. Make the title, definition, and analogy as large as the composition comfortably allows. Reduce them only when they collide with the protected cat, create bad line breaks, or lose contrast.
+3. Keep the term away from the extreme top edge. As a starting point, let the visible title begin roughly 8–15% down the canvas, then adjust by eye.
+4. Move text toward the image until the two masses feel connected. A gap should feel intentional, not like an unclaimed column.
+5. Permit text to overlap expendable portions of secondary props—blank paper, cardboard, a wide machine casing, a ribbon, or a non-semantic surface—when the core action remains clear. Never cover the cat or a crucial connection such as the printer slot feeding the paper.
+6. If a large empty pocket remains, repair it in this order: enlarge body copy, lower the title, widen or rebalance line breaks, move the text block toward the prop, allow controlled prop overlap, then regenerate or recrop the art base.
+
+Review the page at thumbnail size. Avoid leaving roughly a quarter of the canvas as an isolated blank pocket when the opposite side is visually dense, unless that open area clearly supports motion, gaze, or dramatic tension. Do not fill space with extra icons or doodles; solve imbalance with scale, position, crop, and controlled overlap.
 
 ## Color and texture
 
@@ -144,6 +163,9 @@ Keep the palette restrained. Texture should come from real fur, fabric, cardboar
 - Use the system-installed `WawaSC-Regular.otf` (`娃娃体-简`) for every definition and orange analogy when available. Do not bundle or redistribute that proprietary macOS font. Fall back to `assets/fonts/XiaolaiSC-Regular.ttf` only on systems without Wawati SC.
 - Keep oversized English terms and large cover titles in their established title-font roles. Do not replace them with the body font unless the user explicitly asks.
 - Use oversized terms, short explanations, and clear contrast. Leave some breathing room above the term instead of pinning it to the top edge, and size both explanatory lines generously for mobile reading.
+- Begin typography larger than the conservative default. The gray definition and orange analogy should read as strong compositional shapes; if they resemble footnotes, increase them.
+- Prefer two or three deliberate lines over several short timid lines. Freeze line breaks when automatic wrapping splits a meaningful phrase or produces a weak ragged edge.
+- Allow controlled text overlap with a secondary prop when it improves balance, but never cover any part of the cat.
 - Allow one tiny handwritten accent such as `？`, `→`, `等等`, or a circled number when it supports the joke.
 - Do not typeset recurring series or issue metadata in page corners.
 - Do not use repeated card containers, dashboard labels, small pills, or systematic text modules.
