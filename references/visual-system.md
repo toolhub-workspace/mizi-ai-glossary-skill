@@ -6,7 +6,7 @@ Make a clean, high-quality version of an inexplicable internet animal collage. T
 
 Use this shorthand:
 
-> Low-tech gesture, high-quality finish. Real cat, wrong situation, cute emotional overreaction.
+> Low-tech gesture, high-quality finish. Recognizable cat, wrong situation, cute emotional overreaction.
 
 The series is not a polished vintage illustration, a corporate infographic, a vector template, or a dense meme page.
 
@@ -39,13 +39,34 @@ Use the anchors to understand the visual language. Generate original cats, poses
 
 Each page needs:
 
-1. **One real-looking animal:** normally one cat with visible fur and a recognizably feline face.
+1. **One recognizable cat anchor:** normally use a photographic cat with visible fur. A selectively stylized cat is allowed when the feline anatomy, eyes, silhouette, and expression remain immediately readable.
 2. **One wrong situation:** the cat performs a human job, wears an unsuitable object, rides something, becomes part of an object, or operates a tool at the wrong scale.
 3. **One cute expressive reaction:** aggrieved, delighted, guilty, proud, suspicious, or softly startled. The face carries the joke; do not use a neutral passport-photo stare.
 4. **One teaching connection:** the core prop or action must support the AI concept rather than exist as random decoration.
 5. **Zero explanation for the joke:** let the scene be inexplicable. Explain the AI term, not why the cat is doing that.
 
 Good energy examples include a cat inside an everyday object, a cat wearing one inappropriate accessory, a cat holding one professional object, or an upright cat presenting one teaching prop.
+
+## Optional artistic treatment
+
+Treat artistic processing as a controlled extension of the absurd-cat collage, not as a replacement house style. The concept must still read before the viewer notices the technique.
+
+Choose exactly one treatment for a page:
+
+1. **Photo + naïve line interaction:** let a photographic cat interact with one large, loose black-line construction, such as an impossible body, hand, wheel, route, or machine. The drawing must perform one useful action in the joke; it is not background decoration.
+2. **Selective dry-brush collage:** preserve the eyes, face, paws, and silhouette while translating limited fur or prop areas into matte directional strokes, cut-paper planes, or short dry-brush marks. Keep the photographic truth visible beneath the treatment.
+3. **Expressive close-up:** use one strong crop, low angle, wide-angle face, oversized paw, or compressed perspective. Let the cat fill the frame with one readable reaction; remove secondary scenery and props.
+4. **Absurd cat-object fusion:** turn the cat into one simple vehicle, box, adapter, manual, or other concept-bearing object. Keep it to one visual sentence and one dominant silhouette.
+
+Control the dose:
+
+- Use one mode only. Do not combine a doodle figure, painterly face, wide-angle distortion, collage fragments, and multiple props on the same page.
+- Begin with one or two artistically treated pages in a six-page issue. Add more only when the user approves the direction; avoid making all pages share the same effect.
+- Make strokes structural: follow fur direction, describe volume, show motion, or complete an action. Do not scatter marks merely to make the page look artistic.
+- Use a few large planes or two to four coherent stroke families instead of dozens of unrelated small marks.
+- Keep the background white or warm white, preserve large quiet areas, and keep the term and explanation visually dominant.
+- Prefer matte dry media, blunt shapes, and slightly awkward handmade edges. Reject glossy impasto, wet oil-paint smears, heavy canvas texture, muddy blending, global painterly filters, and decorative visual noise.
+- A fully stylized page is a rare exception. When used, make the cat or cat-object fusion the only dominant image and remove all optional helpers.
 
 ## Expression system
 
@@ -98,7 +119,7 @@ Reduce every page to one visual sentence:
 - Use one dominant compact cutout group, usually around the lower or middle field, with generous calm negative space.
 - Let object scale feel deliberately wrong: oversized pointer, tiny lectern, impossible hat, miniature retro computer, or disproportionate vehicle.
 - Preserve a clear silhouette. Awkward collage logic is welcome; muddy edges and broken anatomy are not.
-- Default to no arrow or doodle. When a mark materially helps the joke, use at most one rough arrow, circle, question mark, zigzag, or underline.
+- Default to no decorative arrow or doodle. When a mark materially helps the joke, use at most one rough arrow, circle, question mark, zigzag, underline, or one large functional line-drawing construction.
 - Generate that mark as an organic part of the raster artwork so it feels genuinely hand-drawn and slightly clumsy. Never add a clean vector-like arrow or programmatic annotation layer in post-processing.
 - Do not place explanations inside fixed cards. Typography should occupy negative space and react to the scene.
 
@@ -112,7 +133,7 @@ Reduce every page to one visual sentence:
 | Dark chalkboard green | Occasional teaching object |
 | Natural animal color | Cat, dog, or supporting animal fur |
 
-Keep the palette restrained. Texture should come from real fur, fabric, cardboard, wood, and photographed objects. Do not add global paper grain, sepia, distressed edges, film scratches, or fake vintage filters.
+Keep the palette restrained. Texture should come from real fur, fabric, cardboard, wood, photographed objects, or a few matte directional brush families. Let artistic marks describe form rather than blanket the frame. Do not add global paper grain, sepia, distressed edges, film scratches, fake vintage filters, glossy oil-paint buildup, or muddy all-over texture.
 
 ## Typography
 
@@ -146,7 +167,7 @@ Keep analogies accurate. A funny prop can simplify the concept but must not impl
 - Use one dominant joke. One small reaction mark is enough.
 - If the result resembles a tasteful ad, make the situation less reasonable.
 - If it resembles a chaotic meme dump, remove props and doodles.
-- If it resembles a vintage children's book, remove scenery, texture, and painterly treatment.
+- If it resembles a vintage children's book, remove scenery and ornamental texture. Keep only a concept-serving local brush treatment, or return to the photographic collage.
 
 ## Default exclusions
 
@@ -154,6 +175,7 @@ Keep analogies accurate. A funny prop can simplify the concept but must not impl
 - No card grid, UI dashboard, presentation slide, or scrapbook template.
 - No full illustrated classroom or cinematic environment.
 - No sepia, vintage paper, heavy texture, grunge, or noise.
-- No cartoon cats, 3D mascots, stick figures, celebrities, or product-logo grids.
+- No generic cartoon-cat replacement, 3D mascot, celebrity, or product-logo grid. A primitive line figure or line-built object is allowed only as one large functional interaction with the recognizable cat.
+- No full-frame oil-paint filter, glossy impasto, dirty brush fog, fragmented micro-collage, or decorative mark swarm.
 - No famous meme-cat replication, watermarks, stale catchphrases, or hostile humor.
 - No more than one dominant cat, one core prop, one tiny helper, and one visual joke per page.

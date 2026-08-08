@@ -54,7 +54,7 @@ After copy approval:
 
 1. Devise one cover plus five independent absurd-cat scenes. Give each page one visual premise that can be understood in a glance.
 2. Make every premise support the concept. Let the behavior be ridiculous while the concept mapping stays accurate.
-3. Use one original realistic cat, one core prop, and at most one tiny helper element per page. Across the six pages, vary breed, coat color, body type, posture, expression, scale, and situation; do not repeat a near-identical cat. Choose each cat to support the concept rather than rotating breeds randomly. Give every cat a cute exaggerated reaction with gentle nervous energy rather than a neutral front-facing stare.
+3. Use one original recognizable cat, one core prop, and at most one tiny helper element per page. Keep the cat photographic by default, or choose exactly one controlled artistic treatment from the visual system when it strengthens the concept. Across the six pages, vary breed, coat color, body type, posture, expression, scale, and situation; do not repeat a near-identical cat. Choose each cat to support the concept rather than rotating breeds randomly. Give every cat a cute exaggerated reaction with gentle nervous energy rather than a neutral front-facing stare.
 4. Choose one adaptive teaching angle per term: `生动比喻`, `工具/案例`, `别搞混了`, or `它怎么工作`.
 5. Present the six scene descriptions in one concise storyboard. Stop and wait for visual-story approval.
 
@@ -68,7 +68,7 @@ For every page:
 
 1. Use the style anchors as **style and energy references**, not as edit targets.
 2. Generate a complete 3:4 portrait composition on white or warm-white space.
-3. Build the joke from one realistic cat cutout, one deliberately awkward core prop, funny scale, and at most one primitive hand-drawn mark. Use at least two controlled expression cues such as glossy pleading eyes, uneven ears, a strong head tilt, a tiny crooked smile, closely hugging paws, or mild wide-angle emphasis. Keep the eyes anatomically seated and the overall impression lovable.
+3. Build the joke from one recognizable cat, one deliberately awkward core prop, funny scale, and at most one primitive hand-drawn mark. Choose only one rendering mode for the page: clean photographic collage, photo plus one functional naïve-line interaction, selective dry-brush or cut-paper treatment, one expressive close-up, or one absurd cat-object fusion. Never stack several art effects. Use at least two controlled expression cues such as glossy pleading eyes, uneven ears, a strong head tilt, a tiny crooked smile, closely hugging paws, or mild wide-angle emphasis. Keep the eyes anatomically seated and the overall impression lovable.
 4. Keep natural negative space for the approved Chinese copy. Do not make cards, columns, dashboards, or repeated page modules.
 5. Generate the scene without text first. Do not ask ImageGen to invent definitions or render long Chinese paragraphs. Reserve exact labels such as `AI`, `SKILL`, and all Chinese copy for the typography pass unless the generated label is verified character-for-character.
 6. Default to no decorative arrow or doodle. If one is genuinely useful, generate it organically as part of the raster artwork with an unmistakably loose hand-drawn gesture. Never add clean vector-like arrows, browser-style annotation marks, or programmatic decorative lines during post-processing.
@@ -120,6 +120,6 @@ Use [scripts/render_issue.py](scripts/render_issue.py) with a filled copy of [as
 3. Compare every visible character against the approved copy, including Chinese, English case, abbreviations, punctuation, prop labels, screen text, and handwritten accents. Reject the page for any mismatch or gibberish.
 4. Check issue number, term order, filenames, text contrast, visual variety, and concept-to-joke accuracy.
 5. Compare all pages with [references/visual-system.md](references/visual-system.md).
-6. Regenerate or retouch any page that feels polished-corporate, vintage-editorial, vector-like, repetitive, or too similar to a supplied reference.
+6. Regenerate or retouch any page that feels polished-corporate, vintage-editorial, vector-like, repetitive, oily, filter-heavy, visually fragmented, or too similar to a supplied reference.
 
 Deliver the image folders, approved copy, storyboard, prompts, and fact-check sources.
